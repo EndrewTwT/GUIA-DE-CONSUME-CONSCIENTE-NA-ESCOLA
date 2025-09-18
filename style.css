@@ -24,6 +24,25 @@ header h1 {
   margin-bottom: 10px;
 }
 
+/* MENU */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* espaçamento entre os links */
+}
+
+nav a {
+  color: rgb(9, 42, 35);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
 nav ul {
   list-style: none;
   display: flex;
