@@ -17,11 +17,11 @@
       </div>
     </div>
     <nav aria-label="Menu principal">
-      <a href="#inicio">Início</a>
-      <a href="#categorias">Categorias</a>
-      <a href="#infograficos">Infográficos</a>
-      <a href="#quiz">Quiz</a>
-      <a href="#conclusao">Conclusão</a>
+      <a href="*inicio">Início</a>
+      <a href="*categorias">Categorias</a>
+      <a href="*infograficos">Infográficos</a>
+      <a href="*quiz">Quiz</a>
+      <a href="*conclusao">Conclusão</a>
     </nav>
   </header>
 
@@ -40,7 +40,7 @@
           <div class="stat">⚡ Menor consumo de energia</div>
         </div>
 
-        <p style="margin-top:14px">Use o menu para navegar pelas categorias. Clique em <a class="inline" href="#quiz">Quiz</a> para testar o conhecimento da turma.</p>
+        <p style="margin-top:14px">Use o menu para navegar pelas categorias. Clique em <a class="inline" href="*quiz">Quiz</a> para testar o conhecimento da turma.</p>
       </div>
 
       <aside>
@@ -252,7 +252,7 @@
 
   <script>
     function checkQuiz(){
-      const qs = document.querySelectorAll('#quiz-area .q');
+      const qs = document.querySelectorAll('*quiz-area .q');
       let correct = 0;
       let total = qs.length;
       qs.forEach((q,i)=>{
