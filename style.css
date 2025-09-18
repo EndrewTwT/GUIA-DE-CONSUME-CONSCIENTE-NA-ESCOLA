@@ -9,7 +9,7 @@ body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f4f4f9;
-  color: #333;
+  color: #ff0000;
   margin: 0;
 }
 
@@ -78,7 +78,7 @@ footer {
   background-image: url(/img/image\ copy.png);
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #quiz button {
