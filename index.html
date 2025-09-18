@@ -1,33 +1,276 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia de consumo consciente</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="index.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guia de Consumo Consciente na Escola</title>
+  <meta name="description" content="Guia prático para promover consumo consciente e reduzir desperdício na escola." />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <nav>
-      <ul>
-          <li>
-              <a href="test.html">Fotos</a>
-          </li>  
-          <li>
-            <a href="project.html">Sobre mim</a>
-          </li>
-          </li>
-            <a href="contact.html">Horários</a>
-        </li>
-      </ul>
+  <header>
+    <div class="brand">
+      <div class="logo">GC</div>
+      <div>
+        <div style="font-weight:800">Guia de Consumo Consciente</div>
+        <div style="font-size:13px;opacity:0.9">Na escola — práticas sustentáveis para todos</div>
+      </div>
+    </div>
+    <nav aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#categorias">Categorias</a>
+      <a href="#infograficos">Infográficos</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#conclusao">Conclusão</a>
     </nav>
-  
-    <header>
-       <div class="center">
-             <img src="/img/logo2.png"></img>
-       </div> 
-    
-       <h2>O que é Guia de consumo consciente?</h2>
-    </header>
-  
+  </header>
+
+  <main class="container">
+    <!-- Hero / Introdução -->
+    <section id="inicio" class="hero">
+      <div class="card">
+        <h1>Objetivo</h1>
+        <p class="lead">Promover o consumo consciente e reduzir o desperdício no ambiente escolar, incentivando práticas sustentáveis entre alunos, professoras e funcionários.</p>
+        <h2 style="font-size:18px;margin-top:18px">Por que isso importa?</h2>
+        <p class="small">O consumo excessivo e o desperdício geram impactos ambientais (uso de recursos, emissão de gases, poluição) e econômicos. Nas escolas, pequenas mudanças — se feitas coletivamente — causam grande efeito.</p>
+
+        <div class="stats" aria-hidden="true">
+          <div class="stat">♻️ Redução de resíduos</div>
+          <div class="stat">💧 Economia de água</div>
+          <div class="stat">⚡ Menor consumo de energia</div>
+        </div>
+
+        <p style="margin-top:14px">Use o menu para navegar pelas categorias. Clique em <a class="inline" href="#quiz">Quiz</a> para testar o conhecimento da turma.</p>
+      </div>
+
+      <aside>
+        <div class="card" style="max-width:420px">
+          <h3>Como usar este guia</h3>
+          <ol style="margin:8px 0 0 18px;color:var(--muted)">
+            <li>Leia as dicas por categoria.</li>
+            <li>Imprima os infográficos para murais.</li>
+            <li>Faça o quiz em grupo para engajar estudantes.</li>
+          </ol>
+          <div style="margin-top:12px" class="small">Quer personalizar este material para sua escola? Entre em contato com a coordenação e proponha um projeto sustentável!</div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Categorias -->
+    <section id="categorias" style="margin-top:20px">
+      <h2 class="small" style="margin-bottom:8px">Desenvolvimento</h2>
+      <div class="card">
+        <h2>Categorias</h2>
+        <p class="small">Dividimos o guia em tópicos para facilitar a aplicação na rotina escolar.</p>
+
+        <div class="grid">
+          <!-- Água -->
+          <div class="category">
+            <div class="cat-title"><div class="icon">💧</div><div>Água</div></div>
+            <div class="tips">
+              <ul>
+                <li>Fechar torneiras corretamente após o uso.</li>
+                <li>Usar bebedouros adequadamente — trazer garrafa reutilizável.</li>
+                <li>Verificar e reportar vazamentos imediatamente.</li>
+                <li>Evitar limpeza com água corrente desnecessária; preferir pano úmido.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Energia -->
+          <div class="category">
+            <div class="cat-title"><div class="icon">💡</div><div>Energia</div></div>
+            <div class="tips">
+              <ul>
+                <li>Desligar luzes e equipamentos ao sair da sala.</li>
+                <li>Aproveitar luz natural durante o dia.</li>
+                <li>Usar tomadas com régua e desligá-la quando não usar laboratórios.</li>
+                <li>Orientar sobre o uso responsável de projetores e computadores.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Resíduos -->
+          <div class="category">
+            <div class="cat-title"><div class="icon">🗑️</div><div>Resíduos</div></div>
+            <div class="tips">
+              <ul>
+                <li>Implementar coleta seletiva (papel, plástico, vidro, orgânico).</li>
+                <li>Separar resíduos na origem: lixeiras com etiquetas e cores.</li>
+                <li>Promover compostagem dos resíduos orgânicos, se possível.</li>
+                <li>Reduzir uso de descartáveis (copos, talheres plásticos).</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Alimentação -->
+          <div class="category">
+            <div class="cat-title"><div class="icon">🍎</div><div>Alimentação</div></div>
+            <div class="tips">
+              <ul>
+                <li>Incentivar lanches saudáveis e embalagens retornáveis.</li>
+                <li>Planejar porções para reduzir sobras; incentivar levar para casa sobras não perecíveis.</li>
+                <li>Doar alimentos não perecíveis antes de descartá-los, quando seguro.</li>
+                <li>Conscientizar sobre desperdício: campanhas "lembra do seu prato".</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Materiais -->
+          <div class="category">
+            <div class="cat-title"><div class="icon">📚</div><div>Materiais</div></div>
+            <div class="tips">
+              <ul>
+                <li>Reutilizar papel já usado para rascunho.</li>
+                <li>Trocar materiais entre turmas (biblioteca de materiais).</li>
+                <li>Comprar materiais com conteúdo reciclado sempre que possível.</li>
+                <li>Consertar antes de descartar: canetas, calculadoras, mochilas.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Educação -->
+          <div class="category">
+            <div class="cat-title"><div class="icon">📣</div><div>Educação</div></div>
+            <div class="tips">
+              <ul>
+                <li>Realizar oficinas sobre consumo responsável.</li>
+                <li>Incluir projetos interdisciplinares sobre sustentabilidade.</li>
+                <li>Premiar turmas com melhores práticas (competição saudável).</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Ações rápidas -->
+          <div class="category">
+            <div class="cat-title"><div class="icon">⚡</div><div>Ações rápidas</div></div>
+            <div class="tips">
+              <ul>
+                <li>Cartazes com lembretes: "Apague a luz", "Feche a torneira".</li>
+                <li>Mapa de lixeiras no pátio.</li>
+                <li>Dia mensal de limpeza e reutilização.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Infográficos -->
+    <section id="infograficos" style="margin-top:20px">
+      <h2 class="small">Infográficos</h2>
+      <div class="infographic">
+        <div class="info-card card">
+          <h3 style="margin:6px 0">Água — 5 passos</h3>
+          <ol style="margin:6px 0 0 18px;color:var(--muted)">
+            <li>Use garrafa reutilizável.</li>
+            <li>Feche torneiras com firmeza.</li>
+            <li>Reporte vazamentos.</li>
+            <li>Prefira panos ao invés de mangueira.</li>
+            <li>Eduque colegas com cartazes.</li>
+          </ol>
+        </div>
+
+        <div class="info-card card">
+          <h3 style="margin:6px 0">Energia — Boas práticas</h3>
+          <ul style="margin:6px 0 0 18px;color:var(--muted)">
+            <li>Desligue equipamentos ao final do uso.</li>
+            <li>Use luz natural e cortinas estratégicas.</li>
+            <li>Sugira lâmpadas LED na manutenção.</li>
+          </ul>
+        </div>
+
+        <div class="info-card card">
+          <h3 style="margin:6px 0">Resíduos — Separação</h3>
+          <p class="small">Etiquetas simples com cores: Papel (azul), Plástico (amarelo), Vidro (verde), Orgânico (marrom), Rejeito (cinza).</p>
+        </div>
+
+        <div class="info-card card">
+          <h3 style="margin:6px 0">Alimentação — Reduza o desperdício</h3>
+          <p class="small">Planeje porções, use recipientes retornáveis e realize campanhas contra o desperdício.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quiz opcional -->
+    <section id="quiz" style="margin-top:20px">
+      <h2 class="small">Quiz: Teste seus conhecimentos</h2>
+      <div class="card quiz" aria-live="polite">
+        <div id="quiz-area">
+          <div class="q" data-correct="a">
+            <strong>1.</strong> Qual a prática que ajuda a economizar água no bebedouro?
+            <div style="margin-top:8px">
+              <label><input type="radio" name="q1" value="a"> Trazer garrafa reutilizável</label><br>
+              <label><input type="radio" name="q1" value="b"> Usar copo descartável todo dia</label><br>
+              <label><input type="radio" name="q1" value="c"> Deixar torneira aberta para "lavar rápido"</label>
+            </div>
+          </div>
+
+          <div class="q" data-correct="a">
+            <strong>2.</strong> O que é coleta seletiva?
+            <div style="margin-top:8px">
+              <label><input type="radio" name="q2" value="a"> Separar resíduos por tipo</label><br>
+              <label><input type="radio" name="q2" value="b"> Jogar tudo junto</label><br>
+              <label><input type="radio" name="q2" value="c"> Queimar o lixo no pátio</label>
+            </div>
+          </div>
+
+          <div class="q" data-correct="a">
+            <strong>3.</strong> Melhor opção para reduzir consumo de energia?
+            <div style="margin-top:8px">
+              <label><input type="radio" name="q3" value="a"> Desligar equipamentos ao fim do uso</label><br>
+              <label><input type="radio" name="q3" value="b"> Deixar computadores ligados por segurança</label><br>
+              <label><input type="radio" name="q3" value="c"> Usar projetores como luz principal</label>
+            </div>
+          </div>
+
+        </div>
+        <div style="margin-top:12px;display:flex;gap:8px;align-items:center;">
+          <button class="cta" onclick="checkQuiz()">Enviar respostas</button>
+          <div id="quiz-result" class="small"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conclusão -->
+    <section id="conclusao" style="margin-top:20px">
+      <div class="card">
+        <h2>Conclusão</h2>
+        <p class="small">A adoção de práticas simples e consistentes na escola promove economia de recursos, reduz a pegada ambiental e forma cidadãos conscientes. Incentive ações contínuas, registre os resultados e compartilhe as conquistas no ambiente escolar.</p>
+        <p class="small">Quer transformar isto em projeto escolar oficial? Sugestão de próxima etapa: montar um comitê estudantil e um cronograma trimestral de ações e métricas.</p>
+      </div>
+    </section>
+
+    <footer class="center">
+      <div style="max-width:1100px;width:100%;display:flex;justify-content:space-between;gap:12px;align-items:center;">
+        <div class="small">© Guia de Consumo Consciente — Material educativo (use e adapte na sua escola)</div>
+        <div class="small">Feito com ♻️ · Dê sugestões: <a href="mailto:contato@escola.org">contato@escola.org</a></div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    function checkQuiz(){
+      const qs = document.querySelectorAll('#quiz-area .q');
+      let correct = 0;
+      let total = qs.length;
+      qs.forEach((q,i)=>{
+        const name = 'q'+(i+1);
+        const selected = document.querySelector('input[name="'+name+'"]:checked');
+        const ans = selected ? selected.value : null;
+        const expected = q.getAttribute('data-correct');
+        if(ans && ans === expected) correct++;
+        // visually mark
+        q.style.border = '1px solid transparent';
+        if(!ans) q.style.opacity = '0.9';
+      });
+      const pct = Math.round((correct/total)*100);
+      const res = document.getElementById('quiz-result');
+      res.innerText = `Você acertou ${correct} de ${total} (${pct}%)`;
+      // quick feedback toast
+      res.style.color = pct === 100 ? 'green' : (pct>=60 ? 'orange' : 'crimson');
+    }
+  </script>
+</body>
+</html>
